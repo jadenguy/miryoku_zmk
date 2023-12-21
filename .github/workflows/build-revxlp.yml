@@ -8,6 +8,6 @@ jobs:
     uses: ./.github/workflows/main.yml
     secrets: inherit
     with:
-      board: '"seeeduino_xiao_ble"'
-      shield: '"revxlp"'
-      branches: '"zmkfirmware/zmk/main"'
+      board: '["seeeduino_xiao_ble"]'
+      shield: '["revxlp"]'
+      branches: '["zmkfirmware/zmk/main"]'
